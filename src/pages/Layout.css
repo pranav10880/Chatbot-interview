@@ -1,0 +1,67 @@
+/* Layout.css */
+
+/* Reset default styles */
+html, body, #root {
+    height: 100%; /* Make the HTML, body, and root element take up full height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Roboto', sans-serif; /* Set default font family */
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    height: 100%; /* Make the container take up full height */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #34495e; /* Set the background color */
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar li a {
+    display: block; /* Make links behave as block elements */
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    padding: 12px 20px; /* Add padding for better clickability */
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  }
+  
+  .sidebar li a:hover {
+    background-color: #62738c; /* Change background color on hover */
+    border-radius: 5px;
+  }
+  
+  /* Content styles */
+  .content {
+    flex: 1; /* Allow the content to grow and take up remaining space */
+    padding: 20px;
+    background-color: #ecf0f1; /* Set background color for content area */
+    color: #333; /* Set text color */
+  }
+  
+  /* Global link styles */
+  a {
+    color: #2980b9; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  a:hover {
+    color: #2c3e50; /* Change link color on hover */
+  }
+  

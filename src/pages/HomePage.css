@@ -1,0 +1,15 @@
+.home-page {
+    text-align: center; /* Align the text to the center */
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  .platform-title {
+    font-size: 36px; /* Set the font size */
+    color: #34495e; /* Set the text color */
+    text-transform: uppercase; /* Transform the text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+    font-weight: bold; /* Set font weight to bold */
+    font-family: 'Arial', sans-serif; /* Specify font family */
+    /* Add any additional styling for the title as desired */
+  }
+  

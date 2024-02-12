@@ -1,0 +1,55 @@
+/* Chat.css */
+
+.chat-container {
+    width: calc(100% - 40px); /* Fill the whole page width with margin */
+    max-width: 800px; /* Limit maximum width */
+    margin: 20px auto; /* Center the chat container */
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    overflow-x: hidden; /* Remove horizontal scrolling */
+    overflow-y: hidden; /* Enable vertical scrolling */
+}
+
+.chat {
+    overflow-y: hidden; /* Enable vertical scrolling */
+    max-height: calc(100vh - 120px); /* Limit height to the viewport height minus other elements */
+    margin-bottom: 20px; /* Add more space between elements */
+    padding: 25px; /* Add padding around the text box */
+}
+
+.question {
+    background-color: #34495e;
+    color: white;
+    padding: 15px; /* Increase padding for better spacing */
+    margin-bottom: 20px; /* Add more space between elements */
+    border-radius: 5px;
+}
+
+textarea {
+    width: calc(100% - 40px); /* Adjust for padding */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* Add more space between elements */
+    resize: none; /* Disable resizing */
+    height: 20px; /* Initial height of one line */
+}
+
+textarea:focus {
+    height: auto; /* Allow dynamic resizing when focused */
+}
+
+button {
+    background-color:  #4a69bb;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increase padding for better spacing */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #62738c;
+}
